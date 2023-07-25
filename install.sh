@@ -12,7 +12,7 @@ echo "sudo apt install nodejs -y" >> install.sh
 echo "sudo apt install npm -y" >> install.sh
 
 # Telepítjük a Discord.js csomagot
-echo "npm install discord.js" >> install.sh
+echo "npm install discord.js@13" >> install.sh
 
 # Telepítjük a szükséges kriptográfiai csomagokat
 echo "npm install tweetnacl" >> install.sh
