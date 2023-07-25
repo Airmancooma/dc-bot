@@ -1,21 +1,17 @@
-# Létrehozunk egy új fájlt, pl. 'install.sh', a szükséges csomagok telepítésére
-echo "#!/bin/bash" > install.sh
+#!/bin/bash
 
 # Frissítjük a rendszert
-echo "sudo apt update -y" >> install.sh
-echo "sudo apt upgrade -y" >> install.sh
+sudo apt update -y
+sudo apt upgrade -y
 
 # Telepítjük a Node.js-t
-echo "sudo apt install nodejs -y" >> install.sh
+sudo apt install nodejs -y
 
 # Telepítjük az NPM-t (Node Package Manager)
-echo "sudo apt install npm -y" >> install.sh
+sudo apt install npm -y
 
 # Telepítjük a Discord.js csomagot
-echo "npm install discord.js@13" >> install.sh
+npm install discord.js@13
 
 # Telepítjük a szükséges kriptográfiai csomagokat
-echo "npm install tweetnacl" >> install.sh
-
-# Adjuk hozzá a futtatási jogot a 'install.sh' fájlhoz
-chmod +x install.sh
+npm install tweetnacl
