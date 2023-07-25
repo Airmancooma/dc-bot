@@ -10,6 +10,9 @@ sudo apt install nodejs -y
 # Telepítjük az NPM-t (Node Package Manager)
 sudo apt install npm -y
 
+sudo apt install ffmpeg
+
+
 # Telepítjük a Discord.js csomagot
 npm install discord.js@13
 
