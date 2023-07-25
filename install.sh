@@ -10,7 +10,7 @@ sudo apt install nodejs -y
 # Telepítjük az NPM-t (Node Package Manager)
 sudo apt install npm -y
 
-sudo apt install ffmpeg
+sudo apt install ffmpeg -y
 
 
 # Telepítjük a csomagokat
