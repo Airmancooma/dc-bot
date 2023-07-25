@@ -16,8 +16,6 @@ echo "npm install discord.js" >> install.sh
 
 # Telepítjük a szükséges kriptográfiai csomagokat
 echo "npm install tweetnacl" >> install.sh
-echo "npm install sodium" >> install.sh
-echo "npm install libsodium-wrappers" >> install.sh
 
 # Adjuk hozzá a futtatási jogot a 'install.sh' fájlhoz
 chmod +x install.sh
